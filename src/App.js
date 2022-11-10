@@ -12,7 +12,7 @@ function App() {
     );
     // redirect to survey form
     window.location.href =
-      "https://docs.google.com/forms/d/1H-Golp0EOn0XpvSY8us-0CRMuxWTXERf8t9JPDrrjLs/edit?ts=614b0326";
+      "https://docs.google.com/forms/d/e/1FAIpQLSdOT6jYxlYcHXnqSxQxZkmX_osFvMPzTiniefr_CX7wAx7zWQ/viewform?usp=sf_link";
   }
   return (
     <div className="App">
