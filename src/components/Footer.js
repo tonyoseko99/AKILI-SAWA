@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer-section about" id="footer-details">
           <div className="contact">
             <span>
-              <i className="fas fa-phone"></i> &nbsp; +254 700 000 000
+              <i className="fas fa-phone"></i> &nbsp; +254 708 237 821
             </span><br />
             <span>
               <i className="fas fa-envelope"></i> &nbsp; akilisawa@mental.com
@@ -33,7 +33,7 @@ function Footer() {
         </div>
         <span>
           Developed by Tonny &copy; 2022
-          
+
         </span>
       </div>
     </div>
