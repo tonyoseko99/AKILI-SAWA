@@ -32,7 +32,8 @@ function Footer() {
           </div>
         </div>
         <span>
-          Developed by Tonny &copy; 2021
+          Developed by Tonny &copy; 2022
+          
         </span>
       </div>
     </div>
