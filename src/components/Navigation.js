@@ -1,6 +1,6 @@
 import react from "react";
 
-function Navigation() {
+function Navigation({ handleClick }) {
   return (
     <div className="navigation" id="navigation">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,7 +21,7 @@ function Navigation() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#footer">
                 Contact Us
               </a>
             </li>
@@ -33,12 +33,7 @@ function Navigation() {
           </ul>
           <ul className="navbar-nav" id="navbar-nav">
             <li className="nav-item" id="get-started-btn">
-              <a
-                className="nav-link"
-                href="https://docs.google.com/forms/d/1H-Golp0EOn0XpvSY8us-0CRMuxWTXERf8t9JPDrrjLs/edit?ts=614b0326"
-              >
-                <button className="btn btn-dark">Get Started</button>
-              </a>
+                <button className="btn btn-dark" onClick={handleClick} >Get Started</button>
             </li>
           </ul>
         </div>
