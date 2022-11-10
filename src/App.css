@@ -181,12 +181,15 @@ html{
   margin: 20px;
 }
 
-.about-content h1{
+.about-content h2{
   font-family: 'Roboto', sans-serif;
+  padding: 0 10px;
+  border-left: 3px solid grey;
 }
 
 .about-content p{
-  font-size: medium;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 /* footer section */
@@ -222,6 +225,14 @@ html{
 
 .socials a:hover{
   color: blue;
+}
+
+.logo-text{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px;
+  margin: 5px;
+  border-bottom: 1px solid lightgray;
 }
 
 

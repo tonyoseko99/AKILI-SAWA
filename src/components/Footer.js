@@ -13,7 +13,7 @@ function Footer() {
               <i className="fas fa-phone"></i> &nbsp; +254 700 000 000
             </span><br />
             <span>
-              <i className="fas fa-envelope"></i> &nbsp; tonnyseko@gmail.com
+              <i className="fas fa-envelope"></i> &nbsp; akilisawa@mental.com
             </span><br />
           </div>
           <div className="socials">
