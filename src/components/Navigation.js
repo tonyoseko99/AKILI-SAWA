@@ -29,11 +29,12 @@ function Navigation() {
               Our Partners
             </a>
           </li>
-          
         </ul>
         <ul className="navbar-nav" id="navbar-nav">
-        <li className="nav-item" id="get-started-btn">
-            <button class="btn btn-dark">Get Started</button>
+          <li className="nav-item" id="get-started-btn">
+            <a className="nav-link" href="https://docs.google.com/forms/d/1H-Golp0EOn0XpvSY8us-0CRMuxWTXERf8t9JPDrrjLs/edit?ts=614b0326">
+                <button className="btn btn-dark">Get Started</button>
+            </a>
           </li>
         </ul>
       </div>
