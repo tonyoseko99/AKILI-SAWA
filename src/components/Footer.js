@@ -4,36 +4,31 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-content">
-        <div className="footer-section about">
-          <h1 className="logo-text">
-            <span>AKILI</span> SAWA
-          </h1>
-          <p>
-            Akili Sawa is a mental health awareness and advocacy platform that
-            aims to promote mental health awareness and destigmatize mental
-            health issues in Kenya.
-          </p>
+        <h2 className="logo-text">
+          <span>Contact</span> Us
+        </h2>
+        <div className="footer-section about" id="footer-details">
           <div className="contact">
             <span>
               <i className="fas fa-phone"></i> &nbsp; +254 700 000 000
-            </span>
+            </span><br />
             <span>
               <i className="fas fa-envelope"></i> &nbsp; tonnyseko@gmail.com
-            </span>
+            </span><br />
           </div>
           <div className="socials">
             <a href="#">
               <i className="fab fa-facebook"></i>
-            </a>
+            </a><br />
             <a href="#">
               <i className="fab fa-twitter"></i>
-            </a>
+            </a><br />
             <a href="#">
               <i className="fab fa-instagram"></i>
-            </a>
+            </a><br />
             <a href="#">
               <i className="fab fa-youtube"></i>
-            </a>
+            </a><br />
           </div>
         </div>
       </div>

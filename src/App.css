@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -62,6 +66,10 @@
     font-weight: bold;
   }
 
+  .about-content h2:hover{
+    border-bottom: 2px solid #61dafb;
+  }
+
   .about-section{
     display: flex;
     flex-direction: column;
@@ -83,7 +91,7 @@
   }
 
   .about-content p {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 12px;
     font-weight: lighter;
   }
@@ -98,6 +106,23 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+#navigation{
+  align-items: center;
+  position: relative;
+}
+
+.navbar-brand{
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid #282c34;
+}
+
+#get-started-btn{
+  float: right;
 }
 
 .home{
@@ -168,3 +193,41 @@
 .about-content p{
   font-size: larger;
 }
+
+/* footer section */
+
+.footer{
+  background-color: #282c34;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#footer-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 0 0;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.socials a{
+  margin: 10px;
+  color: white;
+}
+
+.socials a:hover{
+  color: blue;
+}
+
+
+
