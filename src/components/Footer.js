@@ -31,6 +31,9 @@ function Footer() {
             </a><br />
           </div>
         </div>
+        <span>
+          Developed by Tonny &copy; 2021
+        </span>
       </div>
     </div>
   );
