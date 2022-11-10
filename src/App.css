@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 .App {
   text-align: center;
 }
@@ -39,16 +37,6 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
-  .navbar-nav {
-    flex-direction: row;
-  }
-
-  #navbarNav {
-    justify-content: flex-end;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     flex-direction: column;
@@ -56,6 +44,59 @@
 
   #navbarNav {
     justify-content: flex-start;
+  }
+
+  .about-content {
+    margin-top: 20px;
+  }
+
+  .about-content p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  .about-content h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .about-section{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* media query for screens less than 600px width */
+@media only screen and (max-width: 420px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  #navbarNav {
+    justify-content: flex-start;
+  }
+
+  .about-content {
+    margin-top: 20px;
+  }
+
+  .about-content p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  .about-content h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .about-section{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -93,4 +134,37 @@
   border-radius: 5px;
   font-size: 20px;
   margin: 10px;
+}
+
+/* about us section */
+.about-content{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: left;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.about-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.about-section img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.about-content h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-content p{
+  font-size: larger;
 }
