@@ -36,7 +36,7 @@ function Navigation({ handleClick }) {
             </a>
           </li>
         </ul>
-        <button class="btn btn-dark">Get Started</button>
+        <button class="btn btn-dark" onClick={handleClick} >Get Started</button>
       </div>
     </nav>
   );

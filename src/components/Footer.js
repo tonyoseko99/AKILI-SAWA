@@ -31,9 +31,8 @@ function Footer() {
             </a><br />
           </div>
         </div>
-        <span>
+        <span id="footer-sign">
           Developed by Tonny &copy; 2022
-
         </span>
       </div>
     </div>
