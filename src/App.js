@@ -3,6 +3,8 @@ import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Assessment from "./components/Assessment";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   // alert user on button click
@@ -17,8 +19,13 @@ function App() {
   return (
     <div className="App">
       <Navigation handleClick={handleClick} />
-      <Home handleClick={handleClick} />
-      <About />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home handleClick={handleClick} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/assessment" element={<Assessment />} />
+        </Routes>
+      </Router>
       <Footer />
     </div>
   );
