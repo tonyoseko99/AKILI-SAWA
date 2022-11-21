@@ -30,6 +30,11 @@ function Navigation({ handleClick }) {
               About Us
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/assessment">
+              Assessment
+            </a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="/contact">

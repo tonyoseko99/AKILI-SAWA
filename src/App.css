@@ -69,6 +69,11 @@ html{
     justify-content: flex-start;
   }
 
+  .nav-item a{
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
   .about-content {
     margin-top: 20px;
   }
@@ -106,6 +111,10 @@ html{
     justify-content: flex-start;
   }
 
+  .nav-item a{
+    font-size: 12px;
+  }
+
   .about-content {
     margin-top: 20px;
   }
@@ -129,6 +138,8 @@ html{
   }
 }
 
+
+/* desktop devices */
 #navigation{
   align-items: center;
   position: relative;
@@ -140,6 +151,13 @@ html{
   padding: 5px;
   margin: 5px;
   border: 3px solid #282c34;
+}
+
+.nav-item a{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px;
+  margin: 5px;
 }
 
 #get-started-btn{
@@ -209,6 +227,13 @@ html{
 .about-content p{
   font-size: 16px;
   font-weight: lighter;
+}
+
+/* assessment section */
+#assessment{
+  height: 100vh;
+  color: #282c34;
+  padding: 20px;
 }
 
 /* footer section */
