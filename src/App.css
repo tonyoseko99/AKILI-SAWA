@@ -88,6 +88,10 @@ html{
     font-size: 16px;
   }
 
+  #about{
+    margin-top: 100px;
+  }
+  
   .about-content {
     margin-top: 20px;
   }
@@ -127,6 +131,10 @@ html{
 
   .nav-item a{
     font-size: 12px;
+  }
+
+  #about{
+    padding: 0;
   }
 
   .about-content {
@@ -215,6 +223,16 @@ html{
 }
 
 /* about us section */
+#about{
+  color: #282c34;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .about-content{
   display: flex;
   justify-content: center;
