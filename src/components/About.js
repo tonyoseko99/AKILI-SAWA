@@ -11,10 +11,7 @@ function About() {
               <strong>
                 Akili Sawa is a project that seeks to solve mental health issues
                 among the youth under the Sustainable Development Goals (SDGs)
-                3.4 and 3.5.
-                <br />
-                <br />
-                It is a project of the United Nations Academic Impact (UNAI)
+                3.4 and 3.5. It is a project of the United Nations Academic Impact (UNAI)
                 under the Millennium Campus Network (MCN).
               </strong>
             </em>

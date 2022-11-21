@@ -95,15 +95,12 @@ html{
 
   .about-content {
     width: 100%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: baseline;
   }
 
-  .about-content p {
-    margin-top: 20px;
-    font-size: 12px;
-    font-weight: lighter;
-    padding: 0;
-  }
 
   .about-content h2 {
     margin-top: 20px;
@@ -111,13 +108,14 @@ html{
     font-weight: bold;
   }
 
-  .about-content h2:hover{
-    border-bottom: 2px solid #61dafb;
+  .about-section{
+    width: 100%;
   }
 
-  .about-section{
-    display: flex;
-    flex-direction: column;
+  .about-section p{
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 0;
   }
 
   #assessment{
