@@ -1,17 +1,14 @@
 import React from "react";
+import LandingPage from "./LandingPage";
+import About from "./About";
 
-function Home({handleClick} ) {
+function Home({ handleClick }) {
   return (
-    <div className="home" id="home">
-      <div className="home-content">
-        <h1>AKILI SAWA</h1>
-        <p>Make Your Mental Health A Priority</p>
+    <>
+      <LandingPage handleClick={handleClick} />
+      <About />
 
-        <button className="btn btn-dark" onClick={handleClick}>
-          Get Started
-        </button>
-      </div>
-    </div>
+    </>
   );
 }
 
