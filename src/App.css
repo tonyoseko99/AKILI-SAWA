@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -41,7 +41,7 @@ html{
   }
 }
 
-#navbar-main{
+#navbar-main {
   position: fixed;
   top: 0;
   left: 0;
@@ -55,7 +55,7 @@ html{
   align-items: center;
 }
 
-#navbarText button{
+#navbarText button {
   background-color: #282c34;
   border: none;
   color: white;
@@ -68,12 +68,13 @@ html{
   cursor: pointer;
 }
 
-#navbarText button:hover{
+#navbarText button:hover {
   background-color: white;
   color: #282c34;
   border: 2px solid #282c34;
 }
 
+/* max width 600 px */
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     flex-direction: column;
@@ -83,14 +84,13 @@ html{
     justify-content: flex-start;
   }
 
-  .nav-item a{
+  .nav-item a {
     padding: 10px 20px;
     font-size: 16px;
   }
 
-  #about{
+  #about {
     margin-top: 120px;
-    
   }
 
   .about-content {
@@ -101,28 +101,40 @@ html{
     justify-content: baseline;
   }
 
-
   .about-content h2 {
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
   }
 
-  .about-section p{
+  .about-section p {
     font-size: 12px;
     font-weight: lighter;
     padding: 0;
     margin: 0;
     width: 100%;
-    
   }
 
-  #assessment{
+  #assessment {
     margin-top: 120px;
     height: 100vh;
   }
 
-  #footer{
+  /* contact-us form */
+  .contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    padding: 20px;
+  }
+
+  .form-group {
+    margin: 10px;
+  }
+
+  #footer {
     margin-top: 20px;
   }
 }
@@ -137,16 +149,13 @@ html{
     justify-content: flex-start;
   }
 
-  .nav-item a{
+  .nav-item a {
     font-size: 12px;
   }
 
-  #about{
+  #about {
     padding: 0;
-  }
-
-  .about-content {
-    margin-top: 20px;
+    width: 100% !important;
   }
 
   .about-content p {
@@ -154,6 +163,7 @@ html{
     font-size: 12px;
     font-weight: lighter;
     padding: 0;
+    
   }
 
   .about-content h2 {
@@ -162,20 +172,35 @@ html{
     font-weight: bold;
   }
 
-  .about-section{
+  .about-section {
     display: flex;
     flex-direction: column;
+    margin: 0 !important;
+  }
+
+  /* contact-us form */
+  .contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    
+    height: auto !important;
+  }
+
+  .form-group {
+    margin: 10px;
   }
 }
 
-
 /* desktop devices */
-#navigation{
+#navigation {
   align-items: center;
   position: relative;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 24px;
   font-weight: 400;
   padding: 5px;
@@ -183,18 +208,18 @@ html{
   border: 3px solid #282c34;
 }
 
-.nav-item a{
+.nav-item a {
   font-size: 20px;
   font-weight: 400;
   padding: 5px;
   margin: 5px;
 }
 
-#get-started-btn{
+#get-started-btn {
   float: right;
 }
 
-.home{
+.home {
   background-image: url("https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
   opacity: 0.7;
@@ -207,21 +232,21 @@ html{
   align-items: center;
 }
 
-.home-content h1{
-  font-family: 'Roboto', sans-serif;
+.home-content h1 {
+  font-family: "Roboto", sans-serif;
 }
 
-.home-content p{
+.home-content p {
   color: black;
   font-size: larger;
 }
 
-.nav-link button:hover{
+.nav-link button:hover {
   background-color: #282c34;
   color: #f5f5f5;
 }
 
-.home-content button{
+.home-content button {
   background-color: #f5f5f5;
   color: #282c34;
   border: none;
@@ -231,7 +256,7 @@ html{
 }
 
 /* about us section */
-#about{
+#about {
   color: #282c34;
   padding: 5rem;
   display: flex;
@@ -241,7 +266,7 @@ html{
   height: 100vh;
 }
 
-.about-content{
+.about-content {
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -250,7 +275,7 @@ html{
   margin: 20px;
 }
 
-.about-section{
+.about-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,27 +283,48 @@ html{
   margin: 20px;
 }
 
-.about-content h2{
-  font-family: 'Roboto', sans-serif;
+.about-content h2 {
+  font-family: "Roboto", sans-serif;
   padding: 0 10px;
   border-left: 3px solid grey;
 }
 
-.about-content p{
+.about-content p {
   font-size: 16px;
   font-weight: lighter;
+  width: auto;
 }
 
 /* assessment section */
-#assessment{
+#assessment {
   height: 100vh;
   color: #282c34;
   padding: 20px;
 }
 
+/* contact-us form */
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+  padding: 20px;
+  height: 100vh !important;
+
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.form-control {
+  width: 400px;
+}
+
 /* footer section */
 
-.footer{
+.footer {
   background-color: #282c34;
   color: #f5f5f5;
   display: flex;
@@ -287,7 +333,7 @@ html{
   padding: 20px;
 }
 
-#footer-details{
+#footer-details {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,23 +341,23 @@ html{
   padding: 20px 0 0 0;
 }
 
-.socials{
+.socials {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.socials a{
+.socials a {
   margin: 10px;
   color: white;
 }
 
-.socials a:hover{
+.socials a:hover {
   color: blue;
 }
 
-.logo-text{
+.logo-text {
   font-size: 20px;
   font-weight: 400;
   padding: 5px;
@@ -319,13 +365,10 @@ html{
   border-bottom: 1px solid lightgray;
 }
 
-#footer-sign{
+#footer-sign {
   font-size: 12px;
   color: lightgrey;
   font-weight: lighter;
   padding: 5px;
   margin: 5px;
 }
-
-
-

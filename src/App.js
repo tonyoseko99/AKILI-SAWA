@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Assessment from "./components/Assessment";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,15 +19,16 @@ function App() {
   }
   return (
     <div className="App">
-      <Navigation handleClick={handleClick} />
       <Router>
+        <Navigation handleClick={handleClick} />
         <Routes>
           <Route path="/" element={<Home handleClick={handleClick} />} />
           <Route path="/about" element={<About />} />
           <Route path="/assessment" element={<Assessment />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
