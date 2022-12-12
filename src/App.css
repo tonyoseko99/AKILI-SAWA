@@ -154,8 +154,8 @@ html {
   }
 
   #about {
-    padding: 0;
-    width: 100% !important;
+    padding: 5px !important;
+    margin-top: -100px;
   }
 
   .about-content p {
