@@ -8,7 +8,7 @@ const Motivations = () => {
         <p>
           <br />
           <br />
-          This page is under construction. Please check back later.
+          This page is under maintenance. Please check back later.
           <br />
           <br />
         </p>
