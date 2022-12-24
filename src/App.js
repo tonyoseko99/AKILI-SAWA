@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Motivations from "./components/Motivations";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Assessment from "./components/Assessment";
 
 function App() {
   // alert user on button click
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home handleClick={handleClick} />} />
           <Route path="/about" element={<About />} />
           <Route path="/motivations" element={<Motivations />} />
+          <Route path="/assessment" element={<Assessment />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

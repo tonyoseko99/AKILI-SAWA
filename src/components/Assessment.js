@@ -1,10 +1,10 @@
-import React from "react";
+import react from "react";
 
-const Motivations = () => {
+const Assessment = () => {
   return (
-    <div className="motivations">
-      <h2>Motivations</h2>
-      <div className="motivations-section">
+    <div className="assessment">
+      <h2>Self-Assessment</h2>
+      <div className="assessment-section">
         <p>
           <br />
           <br />
@@ -17,4 +17,4 @@ const Motivations = () => {
   );
 };
 
-export default Motivations;
+export default Assessment;
