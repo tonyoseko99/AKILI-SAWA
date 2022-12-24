@@ -3,7 +3,7 @@ import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Assessment from "./components/Assessment";
+import Motivations from "./components/Motivations";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home handleClick={handleClick} />} />
           <Route path="/about" element={<About />} />
-          <Route path="/assessment" element={<Assessment />} />
+          <Route path="/motivations" element={<Motivations />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

@@ -11,29 +11,33 @@ function Footer() {
           <div className="contact">
             <span>
               <i className="fas fa-phone"></i> &nbsp; +254 708 237 821
-            </span><br />
+            </span>
+            <br />
             <span>
               <i className="fas fa-envelope"></i> &nbsp; akilisawa@mental.com
-            </span><br />
+            </span>
+            <br />
           </div>
           <div className="socials">
             <a href="#">
               <i className="fab fa-facebook"></i>
-            </a><br />
+            </a>
+            <br />
             <a href="#">
               <i className="fab fa-twitter"></i>
-            </a><br />
+            </a>
+            <br />
             <a href="#">
               <i className="fab fa-instagram"></i>
-            </a><br />
+            </a>
+            <br />
             <a href="#">
               <i className="fab fa-youtube"></i>
-            </a><br />
+            </a>
+            <br />
           </div>
         </div>
-        <span id="footer-sign">
-          Developed by Tonny &copy; 2022
-        </span>
+        <span id="footer-sign">Developed by Techivar &copy; 2022</span>
       </div>
     </div>
   );

@@ -35,8 +35,8 @@ function Navigation({ handleClick }) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/assessment">
-                Assessment
+              <a className="nav-link" href="/motivations">
+                Daily Motivation
               </a>
             </li>
 
