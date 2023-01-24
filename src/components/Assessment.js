@@ -8,7 +8,11 @@ const Assessment = () => {
         <p>
           <br />
           <br />
-          This page is under maintenance. Please check back later.
+          <iframe
+          style={{width: "100%", height: "100vh"}}
+            allow="microphone; camera: autoplay"
+            src="https://www.okaya.me/dashboard/home/direct?code=3768"
+          />
           <br />
           <br />
         </p>
