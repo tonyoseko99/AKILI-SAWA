@@ -1,8 +1,17 @@
-import React from 'react'
-import LandingPage from '../components/LandingPage'
+import React from "react";
+import LandingPage from "../components/LandingPage";
+import AboutPage from "./AboutPage";
+import ContactPage from "./ContactPage";
 
-export default function HomePage() {
+function Home({ handleClick }) {
   return (
-    <div>HomePage</div>
-  )
+    <>
+      <LandingPage handleClick={handleClick} />
+      <AboutPage />
+      <ContactPage />
+
+    </>
+  );
 }
+
+export default Home;

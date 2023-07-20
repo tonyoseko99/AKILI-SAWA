@@ -1,6 +1,4 @@
-import react from "react";
-
-function LandingPage({ handleClick}) {
+function LandingPage({ handleClick }) {
   return (
     <>
       <div className="home" id="home">

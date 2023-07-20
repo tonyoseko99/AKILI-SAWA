@@ -1,6 +1,6 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
-import Home from "./components/Home";
+import Home from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
 import Motivations from "./components/Motivations";
