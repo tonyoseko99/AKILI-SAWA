@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+export default function AboutPage() {
   return (
     <div className="container-about" id="about">
       <div className="about-content">
@@ -11,8 +11,8 @@ function About() {
               <strong>
                 Akili Sawa is a project that seeks to solve mental health issues
                 among the youth under the Sustainable Development Goals (SDGs)
-                3.4 and 3.5. It is a project of the United Nations Academic Impact (UNAI)
-                under the Millennium Campus Network (MCN).
+                3.4 and 3.5. It is a project of the United Nations Academic
+                Impact (UNAI) under the Millennium Campus Network (MCN).
               </strong>
             </em>
             <br />
@@ -37,5 +37,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

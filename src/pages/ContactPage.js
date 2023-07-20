@@ -1,5 +1,3 @@
-import react from "react";
-
 function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();

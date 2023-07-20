@@ -1,11 +1,8 @@
-import react from "react";
-import { NavLink } from "react-router-dom";
-
 function Navigation({ handleClick }) {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light bg-light"
+        className="navbar navbar-expand-lg navbar-light bg-light flex justify-between drop-shadow-md"
         id="navbar-main"
       >
         <a className="navbar-brand" href="/">

@@ -1,10 +1,10 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-import About from "./components/About";
+import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
 import Motivations from "./components/Motivations";
-import Contact from "./components/Contact";
+import ContactPage from "./pages/ContactPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Assessment from "./components/Assessment";
 
@@ -24,10 +24,10 @@ function App() {
         <Navigation handleClick={handleClick} />
         <Routes>
           <Route path="/" element={<Home handleClick={handleClick} />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/motivations" element={<Motivations />} />
           <Route path="/assessment" element={<Assessment />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </Router>
